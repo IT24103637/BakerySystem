@@ -1,0 +1,104 @@
+/* General styles */
+body {
+    background-color: #fdf6f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fff5eb !important;
+    border-bottom: 2px solid #ffdbb5;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #d17b00 !important;
+}
+
+.navbar-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #d17b00;
+    border-color: #d17b00;
+}
+
+.btn-primary:hover {
+    background-color: #b86600;
+    border-color: #b86600;
+}
+
+.btn-outline-primary {
+    color: #d17b00;
+    border-color: #d17b00;
+}
+
+.btn-outline-primary:hover {
+    background-color: #d17b00;
+    color: #fff;
+}
+
+/* Cards */
+.card {
+    border-radius: 12px;
+    overflow: hidden;
+    border: none;
+}
+
+.card-title {
+    color: #c75c00;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+/* Form */
+.form-label {
+    font-weight: 500;
+    color: #704214;
+}
+
+input.form-control {
+    border-radius: 10px;
+    border: 1px solid #e0c9a6;
+}
+
+input.form-control:focus {
+    border-color: #d17b00;
+    box-shadow: 0 0 5px rgba(209, 123, 0, 0.3);
+}
+
+/* Page titles */
+h1, h2, h4 {
+    color: #b86100;
+}
+
+/* Tables */
+.table {
+    background-color: #fff;
+}
+
+.table th {
+    background-color: #ffe0ba;
+    color: #703f00;
+}
+
+/* Misc */
+.shadow-sm {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05) !important;
+}
+
+a {
+    color: #d17b00;
+}
+
+a:hover {
+    color: #b86100;
+}

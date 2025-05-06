@@ -1,0 +1,575 @@
+04-May-2025 12:14:17.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+04-May-2025 12:14:17.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+04-May-2025 12:14:17.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+04-May-2025 12:14:17.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+04-May-2025 12:14:17.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-May-2025 12:14:17.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-May-2025 12:14:17.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Lithika\.jdks\openjdk-23.0.2
+04-May-2025 12:14:17.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+04-May-2025 12:14:17.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-May-2025 12:14:17.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lithika\Desktop\sample_2
+04-May-2025 12:14:17.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 12:14:17.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-May-2025 12:14:17.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-May-2025 12:14:17.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-May-2025 12:14:17.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-May-2025 12:14:17.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-May-2025 12:14:17.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 12:14:17.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lithika\Desktop\sample_2
+04-May-2025 12:14:17.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lithika\Desktop\sample_2\temp
+04-May-2025 12:14:17.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lithika\Desktop\sample_2\conf\logging.properties
+04-May-2025 12:14:17.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-May-2025 12:14:17.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=56057:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+04-May-2025 12:14:17.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-May-2025 12:14:17.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+04-May-2025 12:14:17.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+04-May-2025 12:14:17.269 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Lithika\.jdks\openjdk-23.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Lithika\AppData\Local\Programs\Python\Python313;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\;C:\Users\Lithika\AppData\Local\Programs\Python\Launcher\;C:\Users\Lithika\AppData\Local\Microsoft\WindowsApps;;.]
+04-May-2025 12:14:18.460 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-May-2025 12:14:18.502 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2049] milliseconds
+04-May-2025 12:14:18.618 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-May-2025 12:14:18.619 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+04-May-2025 12:14:18.640 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml]
+04-May-2025 12:14:19.568 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml] has finished in [926] ms
+04-May-2025 12:14:19.584 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-May-2025 12:14:19.670 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1165] milliseconds
+04-May-2025 12:18:37.187 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-May-2025 12:18:37.209 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-May-2025 12:18:37.264 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-May-2025 12:18:37.283 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-May-2025 12:18:41.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+04-May-2025 12:18:41.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+04-May-2025 12:18:41.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+04-May-2025 12:18:41.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+04-May-2025 12:18:41.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-May-2025 12:18:41.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-May-2025 12:18:41.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Lithika\.jdks\openjdk-23.0.2
+04-May-2025 12:18:41.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+04-May-2025 12:18:41.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-May-2025 12:18:41.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lithika\Desktop\sample_2
+04-May-2025 12:18:41.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 12:18:41.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-May-2025 12:18:41.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-May-2025 12:18:41.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-May-2025 12:18:41.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-May-2025 12:18:41.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-May-2025 12:18:41.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 12:18:41.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lithika\Desktop\sample_2
+04-May-2025 12:18:41.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lithika\Desktop\sample_2\temp
+04-May-2025 12:18:41.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lithika\Desktop\sample_2\conf\logging.properties
+04-May-2025 12:18:41.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-May-2025 12:18:41.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=56115:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+04-May-2025 12:18:41.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-May-2025 12:18:41.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+04-May-2025 12:18:41.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+04-May-2025 12:18:41.260 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Lithika\.jdks\openjdk-23.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Lithika\AppData\Local\Programs\Python\Python313;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\;C:\Users\Lithika\AppData\Local\Programs\Python\Launcher\;C:\Users\Lithika\AppData\Local\Microsoft\WindowsApps;;.]
+04-May-2025 12:18:42.519 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-May-2025 12:18:42.567 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1937] milliseconds
+04-May-2025 12:18:42.689 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-May-2025 12:18:42.690 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+04-May-2025 12:18:42.715 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml]
+04-May-2025 12:18:43.678 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml] has finished in [963] ms
+04-May-2025 12:18:43.704 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-May-2025 12:18:43.803 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1233] milliseconds
+04-May-2025 12:39:12.365 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-May-2025 12:39:12.412 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-May-2025 12:39:12.623 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-May-2025 12:39:12.650 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-May-2025 12:40:34.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+04-May-2025 12:40:34.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+04-May-2025 12:40:34.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+04-May-2025 12:40:34.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+04-May-2025 12:40:34.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-May-2025 12:40:34.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-May-2025 12:40:34.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Lithika\.jdks\openjdk-23.0.2
+04-May-2025 12:40:34.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+04-May-2025 12:40:34.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-May-2025 12:40:34.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lithika\Desktop\sample_2
+04-May-2025 12:40:34.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 12:40:34.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-May-2025 12:40:34.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-May-2025 12:40:34.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-May-2025 12:40:34.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-May-2025 12:40:34.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-May-2025 12:40:34.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 12:40:34.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lithika\Desktop\sample_2
+04-May-2025 12:40:34.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lithika\Desktop\sample_2\temp
+04-May-2025 12:40:34.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lithika\Desktop\sample_2\conf\logging.properties
+04-May-2025 12:40:34.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-May-2025 12:40:34.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=65492:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+04-May-2025 12:40:34.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-May-2025 12:40:34.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+04-May-2025 12:40:34.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+04-May-2025 12:40:34.883 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Lithika\.jdks\openjdk-23.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Lithika\AppData\Local\Programs\Python\Python313;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\;C:\Users\Lithika\AppData\Local\Programs\Python\Launcher\;C:\Users\Lithika\AppData\Local\Microsoft\WindowsApps;;.]
+04-May-2025 12:40:35.932 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-May-2025 12:40:35.978 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1759] milliseconds
+04-May-2025 12:40:36.096 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-May-2025 12:40:36.096 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+04-May-2025 12:40:36.116 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml]
+04-May-2025 12:40:36.844 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml] has finished in [725] ms
+04-May-2025 12:40:36.852 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-May-2025 12:40:36.904 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [923] milliseconds
+04-May-2025 12:46:17.359 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/sample_2]
+04-May-2025 12:46:17.362 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sample_2] has started
+04-May-2025 12:46:17.662 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sample_2] is completed
+04-May-2025 12:49:32.660 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-May-2025 12:49:32.679 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-May-2025 12:49:32.689 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-May-2025 12:49:32.719 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-May-2025 12:50:03.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+04-May-2025 12:50:03.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+04-May-2025 12:50:03.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+04-May-2025 12:50:03.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+04-May-2025 12:50:03.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-May-2025 12:50:03.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-May-2025 12:50:03.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Lithika\.jdks\openjdk-23.0.2
+04-May-2025 12:50:03.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+04-May-2025 12:50:03.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-May-2025 12:50:03.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lithika\Desktop\sample_2
+04-May-2025 12:50:03.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 12:50:03.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-May-2025 12:50:03.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-May-2025 12:50:03.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-May-2025 12:50:03.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-May-2025 12:50:03.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-May-2025 12:50:03.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 12:50:03.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lithika\Desktop\sample_2
+04-May-2025 12:50:03.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lithika\Desktop\sample_2\temp
+04-May-2025 12:50:03.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lithika\Desktop\sample_2\conf\logging.properties
+04-May-2025 12:50:03.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-May-2025 12:50:03.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=49210:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+04-May-2025 12:50:03.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-May-2025 12:50:03.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+04-May-2025 12:50:03.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+04-May-2025 12:50:03.095 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Lithika\.jdks\openjdk-23.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Lithika\AppData\Local\Programs\Python\Python313;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\;C:\Users\Lithika\AppData\Local\Programs\Python\Launcher\;C:\Users\Lithika\AppData\Local\Microsoft\WindowsApps;;.]
+04-May-2025 12:50:03.916 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-May-2025 12:50:03.961 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1306] milliseconds
+04-May-2025 12:50:04.065 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-May-2025 12:50:04.066 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+04-May-2025 12:50:04.112 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml]
+04-May-2025 12:50:05.095 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml] has finished in [985] ms
+04-May-2025 12:50:05.104 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-May-2025 12:50:05.162 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1198] milliseconds
+04-May-2025 13:01:26.147 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/sample_2]
+04-May-2025 13:01:26.148 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sample_2] has started
+04-May-2025 13:01:26.264 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sample_2] is completed
+04-May-2025 13:06:10.250 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-May-2025 13:06:10.270 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-May-2025 13:06:10.279 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-May-2025 13:06:10.299 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-May-2025 13:06:16.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+04-May-2025 13:06:16.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+04-May-2025 13:06:16.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+04-May-2025 13:06:16.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+04-May-2025 13:06:16.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-May-2025 13:06:16.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-May-2025 13:06:16.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Lithika\.jdks\openjdk-23.0.2
+04-May-2025 13:06:16.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+04-May-2025 13:06:16.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-May-2025 13:06:16.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lithika\Desktop\sample_2
+04-May-2025 13:06:16.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 13:06:16.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-May-2025 13:06:16.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-May-2025 13:06:16.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-May-2025 13:06:16.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-May-2025 13:06:16.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-May-2025 13:06:16.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 13:06:16.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lithika\Desktop\sample_2
+04-May-2025 13:06:16.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lithika\Desktop\sample_2\temp
+04-May-2025 13:06:16.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lithika\Desktop\sample_2\conf\logging.properties
+04-May-2025 13:06:16.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-May-2025 13:06:16.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=49354:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+04-May-2025 13:06:16.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-May-2025 13:06:16.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+04-May-2025 13:06:16.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+04-May-2025 13:06:16.410 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Lithika\.jdks\openjdk-23.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Lithika\AppData\Local\Programs\Python\Python313;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\;C:\Users\Lithika\AppData\Local\Programs\Python\Launcher\;C:\Users\Lithika\AppData\Local\Microsoft\WindowsApps;;.]
+04-May-2025 13:06:17.410 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-May-2025 13:06:17.449 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1525] milliseconds
+04-May-2025 13:06:17.550 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-May-2025 13:06:17.550 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+04-May-2025 13:06:17.568 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml]
+04-May-2025 13:06:18.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml] has finished in [792] ms
+04-May-2025 13:06:18.370 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-May-2025 13:06:18.424 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [971] milliseconds
+04-May-2025 13:19:29.411 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/sample_2]
+04-May-2025 13:19:29.414 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sample_2] has started
+04-May-2025 13:19:29.557 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sample_2] is completed
+04-May-2025 13:27:51.490 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-May-2025 13:27:51.500 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-May-2025 13:27:51.509 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-May-2025 13:27:51.514 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-May-2025 13:27:57.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+04-May-2025 13:27:57.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+04-May-2025 13:27:57.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+04-May-2025 13:27:57.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+04-May-2025 13:27:57.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-May-2025 13:27:57.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-May-2025 13:27:57.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Lithika\.jdks\openjdk-23.0.2
+04-May-2025 13:27:57.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+04-May-2025 13:27:57.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-May-2025 13:27:57.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lithika\Desktop\sample_2
+04-May-2025 13:27:57.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 13:27:57.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-May-2025 13:27:57.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-May-2025 13:27:57.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-May-2025 13:27:57.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-May-2025 13:27:57.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-May-2025 13:27:57.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 13:27:57.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lithika\Desktop\sample_2
+04-May-2025 13:27:57.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lithika\Desktop\sample_2\temp
+04-May-2025 13:27:57.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lithika\Desktop\sample_2\conf\logging.properties
+04-May-2025 13:27:57.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-May-2025 13:27:57.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=49494:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+04-May-2025 13:27:57.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-May-2025 13:27:57.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+04-May-2025 13:27:57.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+04-May-2025 13:27:57.893 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Lithika\.jdks\openjdk-23.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Lithika\AppData\Local\Programs\Python\Python313;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\;C:\Users\Lithika\AppData\Local\Programs\Python\Launcher\;C:\Users\Lithika\AppData\Local\Microsoft\WindowsApps;;.]
+04-May-2025 13:27:58.609 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-May-2025 13:27:58.643 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1532] milliseconds
+04-May-2025 13:27:58.734 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-May-2025 13:27:58.735 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+04-May-2025 13:27:58.754 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml]
+04-May-2025 13:27:59.353 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml] has finished in [599] ms
+04-May-2025 13:27:59.359 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-May-2025 13:27:59.394 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [748] milliseconds
+04-May-2025 13:38:08.543 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-May-2025 13:38:08.551 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-May-2025 13:38:08.573 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-May-2025 13:38:08.589 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-May-2025 13:38:13.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+04-May-2025 13:38:13.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+04-May-2025 13:38:13.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+04-May-2025 13:38:13.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+04-May-2025 13:38:13.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-May-2025 13:38:13.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-May-2025 13:38:13.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Lithika\.jdks\openjdk-23.0.2
+04-May-2025 13:38:13.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+04-May-2025 13:38:13.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-May-2025 13:38:13.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lithika\Desktop\sample_2
+04-May-2025 13:38:13.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 13:38:13.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-May-2025 13:38:13.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-May-2025 13:38:13.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-May-2025 13:38:13.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-May-2025 13:38:13.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-May-2025 13:38:13.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 13:38:13.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lithika\Desktop\sample_2
+04-May-2025 13:38:13.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lithika\Desktop\sample_2\temp
+04-May-2025 13:38:13.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lithika\Desktop\sample_2\conf\logging.properties
+04-May-2025 13:38:13.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-May-2025 13:38:13.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=49583:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+04-May-2025 13:38:13.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-May-2025 13:38:13.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+04-May-2025 13:38:13.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+04-May-2025 13:38:13.917 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Lithika\.jdks\openjdk-23.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Lithika\AppData\Local\Programs\Python\Python313;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\;C:\Users\Lithika\AppData\Local\Programs\Python\Launcher\;C:\Users\Lithika\AppData\Local\Microsoft\WindowsApps;;.]
+04-May-2025 13:38:14.553 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-May-2025 13:38:14.581 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1159] milliseconds
+04-May-2025 13:38:14.662 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-May-2025 13:38:14.662 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+04-May-2025 13:38:14.680 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml]
+04-May-2025 13:38:15.274 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml] has finished in [593] ms
+04-May-2025 13:38:15.282 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-May-2025 13:38:15.321 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [739] milliseconds
+04-May-2025 13:52:24.586 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-May-2025 13:52:24.596 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-May-2025 13:52:24.628 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-May-2025 13:52:24.637 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-May-2025 13:52:28.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+04-May-2025 13:52:28.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+04-May-2025 13:52:28.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+04-May-2025 13:52:28.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+04-May-2025 13:52:28.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-May-2025 13:52:28.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-May-2025 13:52:28.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Lithika\.jdks\openjdk-23.0.2
+04-May-2025 13:52:28.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+04-May-2025 13:52:28.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-May-2025 13:52:28.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lithika\Desktop\sample_2
+04-May-2025 13:52:29.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 13:52:29.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-May-2025 13:52:29.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-May-2025 13:52:29.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-May-2025 13:52:29.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-May-2025 13:52:29.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-May-2025 13:52:29.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 13:52:29.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lithika\Desktop\sample_2
+04-May-2025 13:52:29.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lithika\Desktop\sample_2\temp
+04-May-2025 13:52:29.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lithika\Desktop\sample_2\conf\logging.properties
+04-May-2025 13:52:29.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-May-2025 13:52:29.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=54215:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+04-May-2025 13:52:29.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-May-2025 13:52:29.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+04-May-2025 13:52:29.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+04-May-2025 13:52:29.024 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Lithika\.jdks\openjdk-23.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Lithika\AppData\Local\Programs\Python\Python313;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\;C:\Users\Lithika\AppData\Local\Programs\Python\Launcher\;C:\Users\Lithika\AppData\Local\Microsoft\WindowsApps;;.]
+04-May-2025 13:52:29.674 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-May-2025 13:52:29.707 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1066] milliseconds
+04-May-2025 13:52:29.788 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-May-2025 13:52:29.788 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+04-May-2025 13:52:29.805 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml]
+04-May-2025 13:52:30.415 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml] has finished in [609] ms
+04-May-2025 13:52:30.422 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-May-2025 13:52:30.458 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [747] milliseconds
+04-May-2025 22:45:08.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+04-May-2025 22:45:08.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+04-May-2025 22:45:08.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+04-May-2025 22:45:08.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+04-May-2025 22:45:08.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-May-2025 22:45:08.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-May-2025 22:45:08.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Lithika\.jdks\openjdk-23.0.2
+04-May-2025 22:45:08.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+04-May-2025 22:45:08.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-May-2025 22:45:08.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lithika\Desktop\sample_2
+04-May-2025 22:45:08.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 22:45:08.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-May-2025 22:45:08.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-May-2025 22:45:08.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-May-2025 22:45:08.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-May-2025 22:45:08.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-May-2025 22:45:08.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 22:45:08.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lithika\Desktop\sample_2
+04-May-2025 22:45:08.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lithika\Desktop\sample_2\temp
+04-May-2025 22:45:08.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lithika\Desktop\sample_2\conf\logging.properties
+04-May-2025 22:45:08.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-May-2025 22:45:08.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=50477:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+04-May-2025 22:45:08.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-May-2025 22:45:08.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+04-May-2025 22:45:08.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+04-May-2025 22:45:08.228 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Lithika\.jdks\openjdk-23.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Lithika\AppData\Local\Programs\Python\Python313;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\;C:\Users\Lithika\AppData\Local\Programs\Python\Launcher\;C:\Users\Lithika\AppData\Local\Microsoft\WindowsApps;;.]
+04-May-2025 22:45:09.416 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-May-2025 22:45:09.458 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1856] milliseconds
+04-May-2025 22:45:09.546 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-May-2025 22:45:09.547 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+04-May-2025 22:45:09.569 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml]
+04-May-2025 22:45:10.408 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml] has finished in [838] ms
+04-May-2025 22:45:10.419 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-May-2025 22:45:10.479 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1018] milliseconds
+04-May-2025 22:55:36.521 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-May-2025 22:55:36.553 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-May-2025 22:55:36.609 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-May-2025 22:55:36.628 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-May-2025 22:55:44.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+04-May-2025 22:55:44.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+04-May-2025 22:55:44.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+04-May-2025 22:55:44.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+04-May-2025 22:55:44.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-May-2025 22:55:44.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-May-2025 22:55:44.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Lithika\.jdks\openjdk-23.0.2
+04-May-2025 22:55:44.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+04-May-2025 22:55:44.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-May-2025 22:55:44.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lithika\Desktop\sample_2
+04-May-2025 22:55:44.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 22:55:44.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-May-2025 22:55:44.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-May-2025 22:55:44.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-May-2025 22:55:44.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-May-2025 22:55:44.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-May-2025 22:55:44.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 22:55:44.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lithika\Desktop\sample_2
+04-May-2025 22:55:44.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lithika\Desktop\sample_2\temp
+04-May-2025 22:55:44.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lithika\Desktop\sample_2\conf\logging.properties
+04-May-2025 22:55:44.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-May-2025 22:55:44.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=50576:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+04-May-2025 22:55:44.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-May-2025 22:55:44.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+04-May-2025 22:55:44.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+04-May-2025 22:55:44.196 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Lithika\.jdks\openjdk-23.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Lithika\AppData\Local\Programs\Python\Python313;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\;C:\Users\Lithika\AppData\Local\Programs\Python\Launcher\;C:\Users\Lithika\AppData\Local\Microsoft\WindowsApps;;.]
+04-May-2025 22:55:45.284 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-May-2025 22:55:45.332 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1666] milliseconds
+04-May-2025 22:55:45.432 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-May-2025 22:55:45.433 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+04-May-2025 22:55:45.456 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml]
+04-May-2025 22:55:46.299 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml] has finished in [842] ms
+04-May-2025 22:55:46.311 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-May-2025 22:55:46.361 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1026] milliseconds
+04-May-2025 22:56:59.228 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-May-2025 22:56:59.251 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-May-2025 22:56:59.287 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-May-2025 22:56:59.299 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:21:11.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+04-May-2025 23:21:11.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+04-May-2025 23:21:11.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+04-May-2025 23:21:11.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+04-May-2025 23:21:11.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-May-2025 23:21:11.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-May-2025 23:21:11.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Lithika\.jdks\openjdk-23.0.2
+04-May-2025 23:21:11.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+04-May-2025 23:21:11.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-May-2025 23:21:11.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lithika\Desktop\sample_2
+04-May-2025 23:21:11.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 23:21:11.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-May-2025 23:21:11.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-May-2025 23:21:11.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-May-2025 23:21:11.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-May-2025 23:21:11.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-May-2025 23:21:11.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 23:21:11.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lithika\Desktop\sample_2
+04-May-2025 23:21:11.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lithika\Desktop\sample_2\temp
+04-May-2025 23:21:11.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lithika\Desktop\sample_2\conf\logging.properties
+04-May-2025 23:21:11.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-May-2025 23:21:11.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=50841:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+04-May-2025 23:21:11.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-May-2025 23:21:11.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+04-May-2025 23:21:11.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+04-May-2025 23:21:11.798 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Lithika\.jdks\openjdk-23.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Lithika\AppData\Local\Programs\Python\Python313;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\;C:\Users\Lithika\AppData\Local\Programs\Python\Launcher\;C:\Users\Lithika\AppData\Local\Microsoft\WindowsApps;;.]
+04-May-2025 23:21:12.903 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:21:12.955 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1914] milliseconds
+04-May-2025 23:21:13.086 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-May-2025 23:21:13.086 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+04-May-2025 23:21:13.112 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml]
+04-May-2025 23:21:14.097 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml] has finished in [984] ms
+04-May-2025 23:21:14.108 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:21:14.164 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1206] milliseconds
+04-May-2025 23:23:52.244 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:23:52.276 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-May-2025 23:23:52.335 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:23:52.353 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:23:56.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+04-May-2025 23:23:56.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+04-May-2025 23:23:56.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+04-May-2025 23:23:56.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+04-May-2025 23:23:56.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-May-2025 23:23:56.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-May-2025 23:23:56.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Lithika\.jdks\openjdk-23.0.2
+04-May-2025 23:23:56.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+04-May-2025 23:23:56.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-May-2025 23:23:56.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lithika\Desktop\sample_2
+04-May-2025 23:23:56.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 23:23:56.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-May-2025 23:23:56.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-May-2025 23:23:56.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-May-2025 23:23:56.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-May-2025 23:23:56.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-May-2025 23:23:56.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 23:23:56.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lithika\Desktop\sample_2
+04-May-2025 23:23:56.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lithika\Desktop\sample_2\temp
+04-May-2025 23:23:56.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lithika\Desktop\sample_2\conf\logging.properties
+04-May-2025 23:23:56.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-May-2025 23:23:56.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=50903:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+04-May-2025 23:23:56.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-May-2025 23:23:56.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+04-May-2025 23:23:56.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+04-May-2025 23:23:56.474 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Lithika\.jdks\openjdk-23.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Lithika\AppData\Local\Programs\Python\Python313;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\;C:\Users\Lithika\AppData\Local\Programs\Python\Launcher\;C:\Users\Lithika\AppData\Local\Microsoft\WindowsApps;;.]
+04-May-2025 23:23:57.526 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:23:57.577 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1531] milliseconds
+04-May-2025 23:23:57.703 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-May-2025 23:23:57.704 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+04-May-2025 23:23:57.731 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml]
+04-May-2025 23:23:58.603 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml] has finished in [871] ms
+04-May-2025 23:23:58.609 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:23:58.663 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1082] milliseconds
+04-May-2025 23:32:46.821 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:32:46.843 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-May-2025 23:32:46.868 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:32:46.880 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:33:00.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+04-May-2025 23:33:00.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+04-May-2025 23:33:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+04-May-2025 23:33:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+04-May-2025 23:33:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-May-2025 23:33:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-May-2025 23:33:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Lithika\.jdks\openjdk-23.0.2
+04-May-2025 23:33:00.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+04-May-2025 23:33:00.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-May-2025 23:33:00.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lithika\Desktop\sample_2
+04-May-2025 23:33:00.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 23:33:00.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-May-2025 23:33:00.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-May-2025 23:33:00.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-May-2025 23:33:00.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-May-2025 23:33:00.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-May-2025 23:33:00.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 23:33:00.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lithika\Desktop\sample_2
+04-May-2025 23:33:00.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lithika\Desktop\sample_2\temp
+04-May-2025 23:33:00.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lithika\Desktop\sample_2\conf\logging.properties
+04-May-2025 23:33:00.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-May-2025 23:33:00.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=51005:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+04-May-2025 23:33:00.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-May-2025 23:33:00.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+04-May-2025 23:33:00.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+04-May-2025 23:33:00.949 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Lithika\.jdks\openjdk-23.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Lithika\AppData\Local\Programs\Python\Python313;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\;C:\Users\Lithika\AppData\Local\Programs\Python\Launcher\;C:\Users\Lithika\AppData\Local\Microsoft\WindowsApps;;.]
+04-May-2025 23:33:02.247 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:33:02.274 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1802] milliseconds
+04-May-2025 23:33:02.353 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-May-2025 23:33:02.354 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+04-May-2025 23:33:02.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml]
+04-May-2025 23:33:03.408 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml] has finished in [1,029] ms
+04-May-2025 23:33:03.430 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:33:03.595 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1319] milliseconds
+04-May-2025 23:36:00.694 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:36:00.732 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-May-2025 23:36:00.800 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:36:00.815 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:36:08.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+04-May-2025 23:36:08.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+04-May-2025 23:36:08.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+04-May-2025 23:36:08.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+04-May-2025 23:36:08.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-May-2025 23:36:08.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-May-2025 23:36:08.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Lithika\.jdks\openjdk-23.0.2
+04-May-2025 23:36:08.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+04-May-2025 23:36:08.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-May-2025 23:36:08.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lithika\Desktop\sample_2
+04-May-2025 23:36:08.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 23:36:08.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-May-2025 23:36:08.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-May-2025 23:36:08.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-May-2025 23:36:08.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-May-2025 23:36:08.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-May-2025 23:36:08.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 23:36:08.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lithika\Desktop\sample_2
+04-May-2025 23:36:08.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lithika\Desktop\sample_2\temp
+04-May-2025 23:36:08.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lithika\Desktop\sample_2\conf\logging.properties
+04-May-2025 23:36:08.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-May-2025 23:36:08.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=51050:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+04-May-2025 23:36:08.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-May-2025 23:36:08.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+04-May-2025 23:36:08.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+04-May-2025 23:36:08.923 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Lithika\.jdks\openjdk-23.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Lithika\AppData\Local\Programs\Python\Python313;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\;C:\Users\Lithika\AppData\Local\Programs\Python\Launcher\;C:\Users\Lithika\AppData\Local\Microsoft\WindowsApps;;.]
+04-May-2025 23:36:10.077 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:36:10.131 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1751] milliseconds
+04-May-2025 23:36:10.232 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-May-2025 23:36:10.232 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+04-May-2025 23:36:10.254 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml]
+04-May-2025 23:36:11.084 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml] has finished in [829] ms
+04-May-2025 23:36:11.094 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:36:11.154 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1020] milliseconds
+04-May-2025 23:36:41.462 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:36:41.504 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-May-2025 23:36:41.561 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:36:41.583 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:41:03.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+04-May-2025 23:41:03.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+04-May-2025 23:41:03.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+04-May-2025 23:41:03.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+04-May-2025 23:41:03.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-May-2025 23:41:03.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-May-2025 23:41:03.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Lithika\.jdks\openjdk-24.0.1
+04-May-2025 23:41:03.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           24.0.1+9-30
+04-May-2025 23:41:03.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-May-2025 23:41:03.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lithika\Desktop\sample_2
+04-May-2025 23:41:03.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 23:41:03.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-May-2025 23:41:03.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-May-2025 23:41:03.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-May-2025 23:41:03.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-May-2025 23:41:03.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-May-2025 23:41:03.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+04-May-2025 23:41:03.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lithika\Desktop\sample_2
+04-May-2025 23:41:03.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lithika\Desktop\sample_2\temp
+04-May-2025 23:41:03.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lithika\Desktop\sample_2\conf\logging.properties
+04-May-2025 23:41:03.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-May-2025 23:41:03.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=51162:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+04-May-2025 23:41:03.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-May-2025 23:41:03.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+04-May-2025 23:41:03.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+04-May-2025 23:41:03.145 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Lithika\.jdks\openjdk-24.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Lithika\AppData\Local\Programs\Python\Python313;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Lithika\AppData\Local\Programs\Python\Python313\;C:\Users\Lithika\AppData\Local\Programs\Python\Launcher\;C:\Users\Lithika\AppData\Local\Microsoft\WindowsApps;;.]
+04-May-2025 23:41:04.140 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:41:04.191 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1612] milliseconds
+04-May-2025 23:41:04.304 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-May-2025 23:41:04.305 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+04-May-2025 23:41:04.325 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml]
+04-May-2025 23:41:05.145 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lithika\Desktop\sample_2\conf\Catalina\localhost\sample_2.xml] has finished in [819] ms
+04-May-2025 23:41:05.156 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:41:05.208 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1012] milliseconds
+04-May-2025 23:41:46.247 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:41:46.285 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-May-2025 23:41:46.342 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-May-2025 23:41:46.359 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
