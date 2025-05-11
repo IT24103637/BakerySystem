@@ -1,5 +1,9 @@
 package com.BakeryOrder.servlet;
 
+import com.BakeryOrder.dao.AdminDAO;
+import com.BakeryOrder.dto.AdminDTO;
+
+import javax.servlet.*;
 import javax.servlet.http.*;
 import java.io.*;
 
@@ -11,17 +15,16 @@ public class AdminSignupServlet extends HttpServlet {
         String password = request.getParameter("password");
         String firstname = request.getParameter("firstname");
 
-        String path = getServletContext().getRealPath("/") + "admins.txt";
-        BufferedWriter writer = new BufferedWriter(new FileWriter(path, true));
-        writer.write(username + "," + password + "," + firstname);
-        writer.newLine();
-        writer.close();
+        String adminFile = getServletContext().getRealPath("/") + "admins.txt";
+        AdminDAO adminDAO = new AdminDAO(adminFile);
 
-        HttpSession session = request.getSession();
-        session.setAttribute("username", username);
-        session.setAttribute("user", firstname);
-        session.setAttribute("role", "admin");
+        if (adminDAO.getAdminByUsername(username) != null) {
+            response.getWriter().println("<script>alert('Admin already exists');location='admin_signup.jsp';</script>");
+            return;
+        }
 
-        response.sendRedirect("admin_dashboard.jsp");
+        AdminDTO newAdmin = new AdminDTO(username, password, firstname);
+        adminDAO.saveAdmin(newAdmin);
+        response.sendRedirect("login.jsp");
     }
 }

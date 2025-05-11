@@ -1,3 +1,5 @@
 it24103637,null,Lithika
 it24103637,null,Lithika
 binuwara,2004,Lithika
+susa,0000,susantha
+amare,1234,amare
