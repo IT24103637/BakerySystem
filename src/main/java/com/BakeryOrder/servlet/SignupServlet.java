@@ -1,29 +1,30 @@
 package com.BakeryOrder.servlet;
 
+import com.BakeryOrder.dao.UserDAO;
+import com.BakeryOrder.dto.UserDTO;
+
 import javax.servlet.*;
 import javax.servlet.http.*;
 import java.io.*;
 
 public class SignupServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+            throws IOException {
 
         String username = request.getParameter("username");
         String password = request.getParameter("password");
-        String firstName = request.getParameter("firstname");
+        String firstname = request.getParameter("firstname");
 
-        String path = getServletContext().getRealPath("/") + "users.txt";
-        BufferedWriter writer = new BufferedWriter(new FileWriter(path, true));
-        writer.write(username + "," + password + "," + firstName);
-        writer.newLine();
-        writer.close();
+        String userFile = getServletContext().getRealPath("/") + "users.txt";
+        UserDAO userDAO = new UserDAO(userFile);
 
-        HttpSession session = request.getSession();
-        session.setAttribute("username", username);
-        session.setAttribute("password", password);
-        session.setAttribute("user", firstName);
-        session.setAttribute("user", firstName);
+        if (userDAO.getUserByUsername(username) != null) {
+            response.getWriter().println("<script>alert('Username already exists');location='signup.jsp';</script>");
+            return;
+        }
 
-        response.sendRedirect("index.jsp");
+        UserDTO newUser = new UserDTO(username, password, firstname);
+        userDAO.saveUser(newUser);
+        response.sendRedirect("login.jsp");
     }
 }

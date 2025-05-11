@@ -14,7 +14,7 @@ public class AdminDashboardServlet extends HttpServlet {
 
         HttpSession session = request.getSession(false);
         if (session == null || !"admin".equals(session.getAttribute("role"))) {
-            response.sendRedirect("index.jsp");
+            response.sendRedirect("login.jsp");
             return;
         }
 

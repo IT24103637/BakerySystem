@@ -17,4 +17,8 @@ public class UserDTO {
 
     public void setPassword(String password) { this.password = password; }
     public void setFirstname(String firstname) { this.firstname = firstname; }
+
+    public Object getFirstName() {
+        return firstname;
+    }
 }
