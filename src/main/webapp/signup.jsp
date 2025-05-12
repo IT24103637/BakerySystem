@@ -1,13 +1,38 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
-<head><title>Signup</title></head>
-<body>
-<h2>Signup</h2>
-<form action="signup" method="post">
-    First Name: <input type="text" name="firstname" required><br>
-    Username: <input type="text" name="username" required><br>
-    Password: <input type="password" name="password" required><br><br>
-    <input type="submit" value="Signup">
-</form>
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Signup</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<div class="container mt-5">
+    <div class="card shadow p-4">
+        <h2 class="mb-4">Customer Signup</h2>
+
+        <form action="signup" method="post">
+            <div class="mb-3">
+                <label class="form-label">First Name:</label>
+                <input type="text" name="firstname" required class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Username:</label>
+                <input type="text" name="username" required class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Password:</label>
+                <input type="password" name="password" required class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Signup</button>
+        </form>
+
+        <div class="mt-3">
+            <a href="login.jsp">Back to Login</a>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>

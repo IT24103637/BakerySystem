@@ -1,3 +1,4 @@
 indika,12345,sss
 wwww,1234,shdhmeeya,12345,meeya
 hashen,4955,hash
+dammika,1000,tashen

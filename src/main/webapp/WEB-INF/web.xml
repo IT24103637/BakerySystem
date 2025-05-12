@@ -7,14 +7,14 @@
 
   <!-- Session Configuration -->
   <session-config>
-    <session-timeout>30</session-timeout> <!-- 30 minutes -->
+    <session-timeout>30</session-timeout>
     <cookie-config>
       <http-only>true</http-only>
-      <secure>true</secure> <!-- Enable in production with HTTPS -->
+      <secure>false</secure> <!-- Change to true if HTTPS is used -->
     </cookie-config>
   </session-config>
 
-  <!-- Authentication Filter -->
+  <!-- Filters -->
   <filter>
     <filter-name>AuthFilter</filter-name>
     <filter-class>com.BakeryOrder.filter.AuthFilter</filter-class>
@@ -29,7 +29,7 @@
     <url-pattern>/DeleteCustomerServlet</url-pattern>
   </filter-mapping>
 
-  <!-- Servlets Configuration -->
+  <!-- Servlets -->
   <servlet>
     <servlet-name>LoginServlet</servlet-name>
     <servlet-class>com.BakeryOrder.servlet.LoginServlet</servlet-class>
@@ -79,7 +79,6 @@
   <servlet-mapping>
     <servlet-name>AdminSignupServlet</servlet-name>
     <url-pattern>/AdminSignup</url-pattern>
-    <url-pattern>/AdminSignupServlet</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>EditProfileServlet</servlet-name>
@@ -106,9 +105,9 @@
     <url-pattern>/DeleteCustomerServlet</url-pattern>
   </servlet-mapping>
 
-  <!-- Welcome File List -->
+  <!-- Welcome File -->
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
-    <welcome-file>index.html</welcome-file>
   </welcome-file-list>
+
 </web-app>
