@@ -48,7 +48,7 @@
 
 <!-- Header -->
 <div class="header">
-    <h2>Bakery System</h2>
+    <h2>Sweet Delights Bakery</h2>
     <div>
         <% if (user != null) { %>
         <span>Welcome, <%= user %></span>
@@ -61,7 +61,6 @@
         <% } else { %>
         <a href="login.jsp">Login</a>
         <a href="signup.jsp">Signup</a>
-        <a href="admin_signup.jsp">Admin Signup</a>
         <% } %>
     </div>
 </div>

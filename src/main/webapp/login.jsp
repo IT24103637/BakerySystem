@@ -30,7 +30,6 @@
 
         <div class="mt-3">
             <a href="signup.jsp">Customer Signup</a> |
-            <a href="admin_signup.jsp">Admin Signup</a>
         </div>
     </div>
 </div>

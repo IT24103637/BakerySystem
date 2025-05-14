@@ -2,5 +2,5 @@ susa,0000,susantha
 rachi,2004,rachini
 yakade,55555,nethsara
 aja,1990,ajantha
-hadaya,null,Sanhida
 bawan,2000,bawan
+isanka,2005,isanka
